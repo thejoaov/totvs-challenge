@@ -5,7 +5,7 @@
   "description": "Adonisjs application to serve the TOTVS Mobile Challenge.",
   "main": "server.js",
   "scripts": {
-    "prestart": "node ace migration:run",
+    "prestart": "node ace migration:run --force",
     "start": "node server.js",
     "predev": "docker-compose up -d && yarn && node ace migration:run",
     "test": "node ace test",
