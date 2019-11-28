@@ -5,12 +5,9 @@
   </h1>
 </div>
 
-
-
 ## Introduction
 
 This application was made to the mobile coding challenge [provided by TOTVS Lab](https://github.com/totvslabs/mobile-challenge).
-
 
 ## Instructions
 
@@ -18,14 +15,13 @@ To run locally, you need to run first the server. To do this, first, head to [se
 
 Then, head to the [mobile app instructions](https://github.com/thejoaov/totvs-challenge/blob/master/docs/mobile.md).
 
-
-
 ## Contributing
 
-1 - Fork this repository
-2 - Fix bug/Add your feature
-3 - Submit your pull request
-
+<ol>
+  <li>Fork this repository</li>
+  <li>Fix bug/Add your feature</li>  
+  <li>Submit your pull request</li>
+</ol>
 
 ## About me
 
