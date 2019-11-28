@@ -32,25 +32,11 @@ Factory.blueprint('App/Models/User', async faker => {
 })
 
 Factory.blueprint('App/Models/Product', async faker => {
-  // const random = faker.bool()
-  const random = false
-
-  if (random) {
-    return {
-      name: faker.sentence({ words: 3 }),
-      description: faker.sentence(),
-      price: faker.floating({ min: 200, max: 5000 }),
-      size: faker.character({ pool: 'XGMP' }),
-      color: faker.word(),
-      file_id: faker.integer({ min: 1, max: 6 }),
-    }
-  } else {
-    return {
-      name: faker.sentence({ words: 3 }),
-      description: faker.sentence(),
-      price: faker.floating({ min: 200, max: 5000 }),
-      size: faker.character({ pool: 'XGMP' }),
-      color: faker.word(),
-    }
+  return {
+    name: faker.sentence({ words: 3 }),
+    description: faker.sentence(),
+    price: faker.floating({ min: 200, max: 5000 }),
+    size: faker.character({ pool: 'XGMP' }),
+    color: faker.word(),
   }
 })

@@ -13,12 +13,5 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  mailhog:
-    container_name: totvs-challenge-mailhog
-    image: mailhog/mailhog
-    ports:
-      - '8025:8025'
-      - '1025:1025'
-
 volumes:
   postgres_data:
