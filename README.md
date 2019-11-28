@@ -18,7 +18,7 @@ To run locally, you need to run first the server. To do this, first, head to [se
 
 Then, head to the [mobile app instructions](https://github.com/thejoaov/totvs-challenge/blob/master/docs/mobile.md).
 
----
+
 
 ## Contributing
 
