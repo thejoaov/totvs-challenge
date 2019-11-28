@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "TOTVS Mobile Challenge",
+    "slug": "teste",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "teste.expo.googlesignin"
+    },
+    "android": {
+      "package": "teste.expo.googlesignin",
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "2B:53:30:A5:82:04:E6:A3:A2:29:54:BC:00:50:6A:86:6F:D2:53:90",
+          "apiKey": "163428282617-s8s6or7vl5hlnedghvd15q4bqqc3hg9c.apps.googleusercontent.com"
+        }
+      }
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
