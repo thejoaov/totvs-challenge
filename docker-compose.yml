@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: totvs-challenge-postgres
+    image: postgres:11.5-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_DATABASE}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  mailhog:
+    container_name: totvs-challenge-mailhog
+    image: mailhog/mailhog
+    ports:
+      - '8025:8025'
+      - '1025:1025'
+
+volumes:
+  postgres_data:
