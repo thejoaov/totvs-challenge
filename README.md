@@ -5,13 +5,12 @@
   </h1>
 </div>
 
-____
+
 
 ## Introduction
 
 This application was made to the mobile coding challenge [provided by TOTVS Lab](https://github.com/totvslabs/mobile-challenge).
 
-___
 
 ## Instructions
 
@@ -27,7 +26,6 @@ Then, head to the [mobile app instructions](https://github.com/thejoaov/totvs-ch
 2 - Fix bug/Add your feature
 3 - Submit your pull request
 
-___
 
 ## About me
 
