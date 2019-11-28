@@ -14,7 +14,7 @@ function defaultApi() {
 
 export const apiUrl = {
   dev: 'http://10.10.7.117:3333',
-  prod: 'https://thejoaov.tech',
+  prod: 'https://totvs-challenge-server.herokuapp.com',
 };
 
 const { androidClientId } = defaultApi();
